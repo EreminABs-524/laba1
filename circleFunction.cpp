@@ -1,9 +1,9 @@
-int circleLength(int radius){
-	return radius*2*pi;
+float circleLength(int radius){
+	return radius*2*3.14;
 }
-int circleArea(int radius){
-	return pi*radius*radius;
+float circleArea(int radius){
+	return 3.14*radius*radius;
 }
-int circleSector(int radius, int degree){
-	return (radius*radius*degree*pi)/360;
+float circleSector(int radius, int degree){
+	return (radius*radius*degree*3.14)/360;
 }

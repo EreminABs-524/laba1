@@ -4,7 +4,7 @@ using namespace std;
 
 extern int rectanglePerimeter(int firstEdge, int secondEdge);
 extern int rectangleArea(int firstEdge, int secondEdge);
-extern float rectangleDiagonal(float firstEdge, float secondEdge);
+extern float rectangleDiagonal(int firstEdge, int secondEdge);
 
 extern float circleArea(int radius);
 extern float circleLength(int radius);
